@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Cadastro Pedro</title>
+  </head>
+  <body>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+      }
+      label {
+        padding: 0.5rem 0;
+      }
+      button {
+        margin-top: 0.8rem;
+      }
+    </style>
+    <h1>Cadastro - EBAC</h1>
+    <form>
+      <label for="nome">Nome:</label>
+      <input
+        type="text"
+        id="nome"
+        name="nome"
+        placeholder="Insira o seu Nome"
+        required
+      />
+      <label for="email">E-mail:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Insira o seu Email"
+        required
+      />
+      <label for="senha">Senha:</label>
+      <input
+        type="password"
+        id="senha"
+        name="senha"
+        placeholder="Insira sua senha"
+        required
+      />
+      <button type="submit">Cadastrar</button>
+    </form>
+  </body>
+</html>
