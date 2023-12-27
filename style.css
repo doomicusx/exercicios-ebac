@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 1440px;
+  padding: 1.25rem 2.5rem;
+  margin: 0 auto;
+}
+
+/* Menu */
+.logo {
+  color: #1e1e1e;
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: "Bebas Neue", sans-serif;
+}
+.menu-itens {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.menu-itens li a {
+  color: #1e1e1e;
+  text-decoration: none;
+}
+.cart {
+  font-size: 1.125rem;
+  color: #1e1e1e;
+}
+header {
+  background-color: #dad3c4;
+}
+.menu-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Main */
+
+.img-container img {
+  width: 100%;
+  object-fit: cover;
+  height: 600px;
+}
+
+.img-container {
+  width: 100%;
+  height: 600px;
+}
+
+.content {
+  position: relative;
+}
+.content-over-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.content-over-image h1 {
+  font-size: 4rem;
+  color: #f9f9f9;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 15px;
+}
+.content-over-image p {
+  font-size: 1rem;
+  color: #f9f9f9;
+  letter-spacing: 20px;
+}
+
+/* Mission */
+#mission {
+  background-color: #494a47;
+}
+.mission-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text-content h2,
+h3 {
+  font-size: 2.5rem;
+  color: #f9f9f9;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 10px;
+}
+.text-content p {
+  font-size: 1rem;
+  width: 500px;
+  color: #f9f9f9;
+  line-height: 200%;
+  margin-top: 1rem;
+}
+.image-content img {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+.button {
+  margin-top: 30px;
+  display: inline-flex;
+  padding: 15px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #f9f9f9;
+  color: #1e1e1e;
+  text-decoration: none;
+}
+
+/* New */
+#newsletter {
+  background-color: #dad3c4;
+}
+form {
+  display: flex;
+  align-items: center;
+  padding: 40px 0;
+  max-width: 800px;
+}
+
+label {
+  font-size: 1.125rem;
+}
+input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #494a47;
+  background-color: #dad3c4;
+}
+input:first-child {
+  margin-right: 20px;
+}
+button {
+  cursor: pointer;
+  padding: 10px;
+  border: 1p;
+  border: 2px solid #494a47;
+  display: inline-block;
+  box-shadow: none;
+  background-color: #494a47;
+  color: #dad3c4;
+  font-size: 1rem;
+}
+.newsletter-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text-content h3 {
+  color: #1e1e1e;
+}
+.text-new {
+  color: #1e1e1e !important;
+}
+
+/* FOoter */
+footer {
+  background-color: #494a47;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.redes {
+  flex-direction: column;
+  gap: 8px;
+  color: #f9f9f9 !important;
+}
+.redes li a {
+  color: #f9f9f9 !important;
+}
