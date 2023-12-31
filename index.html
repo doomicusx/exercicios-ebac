@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Agenda de Contatos</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Agenda de Contatos EBAC</h1>
+      <form id="contactForm">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="phone">Telefone (DDD + Número):</label>
+        <input type="tel" id="phone" name="phone" maxlength="11" required />
+        <button type="button" class="botao">Cadastrar</button>
+      </form>
+      <table id="tabela">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Telefone</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
